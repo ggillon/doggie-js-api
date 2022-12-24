@@ -6,7 +6,8 @@ const app = express();
 
 const initInfo = {
     "intro-message": "",
-    "latest-version": "1.0.0"
+    "latest-version": "1.0.0",
+    "ecluded-versions": ["0.0.0", "0.0.1"]
  }
 
  const apiLink = {
@@ -25,4 +26,3 @@ app.get('/api', (req, res)=>{
 app.listen(PORT, () => {
     console.log(`App listening on http://localhost:${PORT}`);
   });
-  

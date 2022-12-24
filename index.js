@@ -7,7 +7,7 @@ const app = express();
 const initInfo = {
     "intro-message": "",
     "latest-version": "1.0.0",
-    "ecluded-versions": ["0.0.0", "0.0.1"]
+    "excluded-versions": ["0.0.0", "0.0.1"]
  }
 
  const apiLink = {
